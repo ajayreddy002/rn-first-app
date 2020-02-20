@@ -9,13 +9,12 @@ export default StyleSheet.create({
         // paddingLeft: 40,
         // paddingRight: 40,
         textAlign:'center',
-        width:'256px',
+        width: 256,
         backgroundColor: '#007ab6',
         borderRadius: 8,
         fontSize: 14,
         lineHeight: 18,
-        fontWeight: 'lighter',
-        fontFamily: 'open-sans-reg',
+        fontWeight: '200',
     },
     whiteBg: {
         backgroundColor: '#fff',
@@ -26,20 +25,39 @@ export default StyleSheet.create({
         shadowRadius: 24,
         paddingTop: 15,
         paddingBottom: 15,
-        width:'256px',
+        width: 256,
         textAlign:'center',
         borderRadius: 8,
         fontSize: 14,
         lineHeight: 18,
-        fontWeight: 'lighter',
-        fontFamily: 'open-sans-reg',
+        fontWeight: '200',
     },
     header:{
-        fontSize: '24px',
+        fontSize: 24,
         color: '#0094FF',
         lineHeight: 20,
-        fontFamily: 'Verdana',
         marginBottom: 45,
-        fontFamily: 'open-sans-bold'
+        fontWeight: '700',
+        paddingTop: 20
+    },
+    logoImg:{
+        width: '100%',
+        height:'100%',
+        flex: 1,
+        resizeMode: 'cover'
+    },
+    mainContainer: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100%',
+        flex: 1
+    },
+    IconName: {
+        position: 'absolute',
+        top: 50,
+        left: 0,
+        right: 0,
+        zIndex: 99,
+        textAlign: 'left',
     }
 })

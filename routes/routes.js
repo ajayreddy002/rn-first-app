@@ -4,6 +4,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 // import HomeComponent from '../components/home'
 import GetStartedComponent from '../components/getstarted/getstartedcomponent';
+import { DetailsComponent } from '../components/details/detailscomponent';
 const Stack = createStackNavigator();
 export default function AppNavigator() {
   return (
@@ -15,6 +16,11 @@ export default function AppNavigator() {
           <Stack.Screen
           name="/"
           component={GetStartedComponent}
+          options={{title: false}}
+          />
+          <Stack.Screen
+          name="/details"
+          component={DetailsComponent}
           options={{title: false}}
           />
       </Stack.Navigator>
