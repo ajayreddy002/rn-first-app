@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { View } from 'react-native';
+import { View , Text} from 'react-native';
 export class DetailsComponent extends Component {
     render(){
         return(

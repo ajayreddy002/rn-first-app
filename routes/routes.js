@@ -11,7 +11,7 @@ export default function AppNavigator() {
     <NavigationContainer>
       <Stack.Navigator
       screenOptions={{
-        headerShown: false
+        headerShown: false,
       }}>
           <Stack.Screen
           name="/"

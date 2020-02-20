@@ -5,7 +5,12 @@ import Logo from '../../assets/logo.png';
 import globalStyles from '../../styles/globalstyles';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 export default class GetStartedComponent extends Component {
+    constructor(props){
+        super(props);
+        this.signInWithLink = this.signInWithLink.bind(this)
+    }
     signInWithLink(){
+        this.props.navigation.push('/details')
     }
     signInWithGoogle(){
         alert('Selected google');

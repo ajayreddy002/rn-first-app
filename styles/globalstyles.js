@@ -11,10 +11,11 @@ export default StyleSheet.create({
         textAlign:'center',
         width: 256,
         backgroundColor: '#007ab6',
-        borderRadius: 8,
+        borderRadius: 10,
         fontSize: 14,
         lineHeight: 18,
-        fontWeight: '200',
+        color: '#fff',
+        fontWeight: '500',
     },
     whiteBg: {
         backgroundColor: '#fff',
