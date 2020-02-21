@@ -14,15 +14,15 @@ export default function AppNavigator() {
         headerShown: false,
       }}>
           <Stack.Screen
-          name="/"
-          component={GetStartedComponent}
-          options={{title: false}}
-          />
-          <Stack.Screen
           name="/details"
           component={DetailsComponent}
           options={{title: false}}
           />
+          {/* <Stack.Screen
+          name="/details"
+          component={DetailsComponent}
+          options={{title: false}}
+          /> */}
       </Stack.Navigator>
     </NavigationContainer>
   );

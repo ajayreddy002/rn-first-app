@@ -28,7 +28,7 @@ export default class GetStartedComponent extends Component {
                     <View>
                         <TouchableHighlight onPress={this.signInWithLink}>
                             <Text style={globalStyles.blueBtn}>
-                                <Icon name="linkedin" size={20} color="#fff" />
+                                <Icon name="linkedin" size={20} color="#fff" style={{marginRight:15, alignItems: 'center', justifyContent: 'center'}}/>
                                 Signin with Linkedin
                             </Text>
                         </TouchableHighlight>
